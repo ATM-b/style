@@ -1,0 +1,212 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body{
+  background-color: burlywood;
+}
+
+
+
+.atmlogo img{
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+}
+
+
+#header{
+  background-color: brown;
+}
+
+
+.nav_bar{
+width: 1200px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.Menu{
+display: flex;
+list-style: none;
+gap: 50px;
+text-align: center;
+
+}
+
+
+
+
+.Menu a{
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+
+a{
+  text-decoration: none
+}
+
+.atm-heading {
+  color: black;                  /* text color */
+  -webkit-text-stroke: 0.5px gold; /* gold stroke (only works on WebKit browsers) */
+  font-size: 48px;               /* optional: makes it bold and big */
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+h3 {
+    text-align: center;
+}
+
+
+
+.ATM {
+  display: flex;
+  gap: 10px; /* space between images */
+  justify-content: center; /* center horizontally */
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  padding: 20px;
+}
+
+.ATM img {
+  border-radius: 10px; /* optional: rounded corners */
+  
+}
+
+footer{
+    background-color: brown;
+    text-align: center;
+}
+
+h2 {
+  font-style: bold;
+}
+
+.ATM1 {
+  display: flex;
+  gap: 20px; /* space between each image+text block */
+  justify-content: center;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+.ATM1 .item {
+  text-align: center;
+}
+
+
+
+.ATM2 {
+  display: flex;
+  gap: 20px; /* space between each image+text block */
+  justify-content: center;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.ATM2 .item2 {
+  text-align: center;
+}
+
+.ATM2 img {
+  border-radius: 8px;
+}
+
+
+.ATM3 {
+  display: flex;
+  gap: 20px; /* space between each image+text block */
+  justify-content: center;
+  flex-wrap: wrap; /* makes layout responsive */
+}
+
+.ATM3 .item3 {
+  text-align: center;
+}
+
+.ATM3 img {
+  border-radius: 8px;
+}
+
+.ATM33{
+  color: black;                  /* text color */
+  -webkit-text-stroke: 0.5px gold; /* gold stroke (only works on WebKit browsers) */
+  font-size: 20px;               /* optional: makes it bold and big */
+  font-weight: bold;
+  text-align: center;
+}
+
+.atm55{
+  text-align: left;
+  font-style: normal;
+}
+
+#atmimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("images/atm3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
